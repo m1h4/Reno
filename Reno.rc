@@ -1,0 +1,422 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Croatian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_HRV)
+#ifdef _WIN32
+LANGUAGE LANG_CROATIAN, SUBLANG_DEFAULT
+#pragma code_page(1250)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "Reno.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New Window\tCtrl+N",         ID_FILE_NEW
+        MENUITEM "&Close Window\tCtrl+F4",      ID_FILE_CLOSE
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit\tAlt+F4",               ID_APP_EXIT
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Status Bar\tAlt+Shift+S",    ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "&Colors...",                  ID_VIEW_COLORS
+        MENUITEM "&Font...",                    ID_VIEW_FONT
+    END
+    POPUP "&Tools"
+    BEGIN
+        MENUITEM "&Options...\tAlt+Enter",      ID_TOOLS_OPTIONS
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "Reno &Help\tF1",              ID_HELP
+        MENUITEM SEPARATOR
+        MENUITEM "&About Reno...",              ID_APP_ABOUT
+    END
+END
+
+IDR_COMMANDFRAME MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New Window\tCtrl+N",         ID_FILE_NEW
+        MENUITEM "&Close Window\tCtrl+F4",      ID_FILE_CLOSE
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit\tAlt+F4",               ID_APP_EXIT
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Status Bar\tAlt+Shift+S",    ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "&Colors...",                  ID_VIEW_COLORS
+        MENUITEM "&Font...",                    ID_VIEW_FONT
+    END
+    POPUP "&Tools"
+    BEGIN
+        MENUITEM "&Options...\tAlt+Enter",      ID_TOOLS_OPTIONS
+    END
+    POPUP "&Window"
+    BEGIN
+        MENUITEM "&Cascade\tCtrl+Shift+C",      ID_WINDOW_CASCADE
+        MENUITEM "&Tile Horizontal",            ID_WINDOW_TILE_HORZ
+        MENUITEM "Tile &Vertical",              ID_WINDOW_TILE_VERT
+        MENUITEM "&Arrange Icons",              ID_WINDOW_ARRANGE
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "Reno &Help\tF1",              ID_HELP
+        MENUITEM SEPARATOR
+        MENUITEM "&About Reno...",              ID_APP_ABOUT
+    END
+END
+
+IDR_CHATFRAME MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Close Window\tCtrl+F4",      ID_FILE_CLOSE
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit\tAlt+F4",               ID_APP_EXIT
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Status Bar\tAlt+Shift+S",    ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "&Colors...",                  ID_VIEW_COLORS
+        MENUITEM "&Font...",                    ID_VIEW_FONT
+    END
+    POPUP "&Tools"
+    BEGIN
+        MENUITEM "&Options...\tAlt+Enter",      ID_TOOLS_OPTIONS
+    END
+    POPUP "&Window"
+    BEGIN
+        MENUITEM "&Cascade\tCtrl+Shift+C",      ID_WINDOW_CASCADE
+        MENUITEM "&Tile Horizontal",            ID_WINDOW_TILE_HORZ
+        MENUITEM "Tile &Vertical",              ID_WINDOW_TILE_VERT
+        MENUITEM "&Arrange Icons",              ID_WINDOW_ARRANGE
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "Reno &Help\tF1",              ID_HELP
+        MENUITEM SEPARATOR
+        MENUITEM "&About Reno...",              ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_RETURN,      ID_TOOLS_OPTIONS,       VIRTKEY, ALT, NOINVERT
+    "S",            ID_VIEW_STATUS_BAR,     VIRTKEY, SHIFT, ALT, NOINVERT
+    "C",            ID_WINDOW_CASCADE,      VIRTKEY, SHIFT, CONTROL, NOINVERT
+END
+
+IDR_COMMANDFRAME ACCELERATORS 
+BEGIN
+    VK_F4,          ID_FILE_CLOSE,          VIRTKEY, CONTROL, NOINVERT
+    "C",            ID_WINDOW_CASCADE,      VIRTKEY, SHIFT, CONTROL, NOINVERT
+    "S",            ID_VIEW_STATUS_BAR,     VIRTKEY, SHIFT, ALT, NOINVERT
+END
+
+IDR_CHATFRAME ACCELERATORS 
+BEGIN
+    VK_F4,          ID_FILE_CLOSE,          VIRTKEY, CONTROL, NOINVERT
+    "C",            ID_WINDOW_CASCADE,      VIRTKEY, SHIFT, CONTROL, NOINVERT
+    "S",            ID_VIEW_STATUS_BAR,     VIRTKEY, SHIFT, ALT, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 234, 185
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Reno"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    LTEXT           "Reno Version 1.0",IDC_STATIC,89,7,56,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) Marko Mihovilic 2007.",IDC_STATIC,60,17,114,8
+    DEFPUSHBUTTON   "OK",IDOK,177,164,50,14,WS_GROUP
+    EDITTEXT        IDC_ABOUT_TEXT,7,31,220,127,ES_MULTILINE | ES_READONLY | WS_VSCROLL,WS_EX_CLIENTEDGE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 0,1,0,0
+ PRODUCTVERSION 0,1,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "Marko Mihovilic"
+            VALUE "FileDescription", "Internet Relay Chat Client"
+            VALUE "FileVersion", "0,1,0,0"
+            VALUE "InternalName", "Reno.exe"
+            VALUE "LegalCopyright", "Copyright (C) 2007. Marko Mihovilic. All Rights Reserved."
+            VALUE "OriginalFilename", "Reno.exe"
+            VALUE "ProductName", "Reno"
+            VALUE "ProductVersion", "0,1,0,0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 227
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 178
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDP_CONTROLS_INIT_FAILED "Windows controls initialization failed."
+    IDP_SOCKETS_INIT_FAILED "Windows sockets initialization failed."
+END
+
+STRINGTABLE 
+BEGIN
+    IDR_MAINFRAME           "Reno"
+    IDR_COMMANDFRAME        "\nNot Connected"
+    IDR_CHATFRAME           "\nChat"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "Reno"
+    AFX_IDS_IDLEMESSAGE     "For Help, click Help Topics on the Help Menu."
+END
+
+STRINGTABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "Capslock"
+    ID_INDICATOR_NUM        "Numlock"
+    ID_INDICATOR_SCRL       "Scrollock"
+    ID_INDICATOR_OVR        "Overtype"
+    ID_INDICATOR_REC        "Record"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_NEW             "Create a new window.\nNew"
+    ID_FILE_CLOSE           "Close the active window.\nClose"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright.\nAbout"
+    ID_APP_EXIT             "Close all windows and exit Reno.\nExit"
+    ID_HELP                 "Displays help for Reno.\nReno Help"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane.\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane.\nPrevious Pane"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_WINDOW_ARRANGE       "Arrange icons at the bottom of the window.\nArrange Icons"
+    ID_WINDOW_CASCADE       "Arrange windows so they overlap.\nCascade Windows"
+    ID_WINDOW_TILE_HORZ     "Arrange windows as non-overlapping horizontal tiles.\nTile Windows Horizontaly"
+    ID_WINDOW_TILE_VERT     "Arrange windows as non-overlapping vertical tiles.\nTile Windows Verticaly"
+    ID_WINDOW_SPLIT         "Split the active window into panes.\nSplit"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar.\nToggle StatusBar"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size."
+    AFX_IDS_SCMOVE          "Change the window position."
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon."
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size."
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next window."
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous window."
+    AFX_IDS_SCCLOSE         "Close the active window."
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size."
+    AFX_IDS_SCTASKLIST      "Activate Task List."
+    AFX_IDS_MDICHILD        "Activate this window."
+END
+
+STRINGTABLE 
+BEGIN
+    ID_TOOLS_OPTIONS        "Allows you to configure various options.\nOptions"
+    ID_VIEW_COLORS          "Displays a window where you can configure the default colors.\nColors"
+    ID_VIEW_FONT            "Displays a window where you can select the default font.\nFont"
+END
+
+#endif    // Croatian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_OPTIONS_GENERAL DIALOGEX 0, 0, 210, 154
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "General"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    CONTROL         "Check1",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,56,39,10
+    CONTROL         "Check2",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,71,39,10
+    CONTROL         "Check3",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,86,39,10
+    LISTBOX         IDC_LIST1,103,52,75,40,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT1,103,34,75,14,ES_AUTOHSCROLL
+    LTEXT           "Some options for Reno.",IDC_STATIC,15,12,76,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_OPTIONS_GENERAL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
